@@ -2,7 +2,7 @@
 
 ## CopyFail
 
-- [Page](https://copy.fail)
+- [Page](https://copy.fail) - CopyFail page
 - [GitHub](https://github.com/theori-io/copy-fail-CVE-2026-31431)
   Proof of concept code for exploit
 - [fix_copyfail.sh](https://raw.githubusercontent.com/user/repo/main/fix_copyfail.sh) -
@@ -23,7 +23,7 @@
 
 ## CopyFail 2
 
-- [Page](https://afflicted.sh/blog/posts/copy-fail-2.html)
+- [Page](https://afflicted.sh/blog/posts/copy-fail-2.html) - CopyFail 2 Page
 - [GitHub](https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo)
   Proof of concept code for exploit
 - [fix_copyfail2.sh](https://raw.githubusercontent.com/user/repo/main/fix_copyfail2.sh) -
