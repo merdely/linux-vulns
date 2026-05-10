@@ -26,6 +26,7 @@ fi
 printf "install %s /bin/false\n" "${modules[@]}" > /etc/modprobe.d/dirtyfrag.conf
 rmmod "${modules[@]}"
 sudo modprobe -r "${modules[@]}"
+echo 3 > /proc/sys/vm/drop_caches
 
 if $remounted; then
   mount -o remount,ro /
