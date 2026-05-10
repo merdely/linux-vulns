@@ -29,6 +29,6 @@ sudo modprobe -r "${modules[@]}"
 
 if $remounted; then
   mount -o remount,ro /
-  (( $? != 0 )) echo "Error: Could not remount root as read-only" >&2 && exit 1
+  (( $? != 0 )) && echo "Error: Could not remount root as read-only" >&2 && exit 1
 fi
 
