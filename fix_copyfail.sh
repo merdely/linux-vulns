@@ -18,7 +18,7 @@ fi
 remounted=false
 if findmnt -n -o OPTIONS / | grep -qw ro; then
   mount -o remount,rw /
-  (( $? != 0 )) echo "Error: Could not remount root as read-write" >&2 && exit 1
+  (( $? != 0 )) && echo "Error: Could not remount root as read-write" >&2 && exit 1
   remounted=true
 fi
 
