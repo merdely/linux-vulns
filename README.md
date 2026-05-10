@@ -30,5 +30,5 @@
   My script for mitigating CopyFail 2
   (**Important**: update kernel as soon as an update is available)
 - [Related Lemmy Post](https://lemmy.world/post/46622170)
-- Note: I do not know if this one is real yet
+- Note: I believe this is lumped in with DirtyFrag
 
